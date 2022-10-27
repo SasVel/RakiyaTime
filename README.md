@@ -5,4 +5,4 @@ The application gets the UTC 0 time and calculates in which time zone is between
 Then displays a list of 3 randomized places from a ready-made dictionary that are in said time zone.
 Happy drinking and use responsibly!
 
-Download the zip folder for the application
+**_Download the zip folder for the application_**
