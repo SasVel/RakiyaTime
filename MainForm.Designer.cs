@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -62,13 +61,13 @@
             // 
             // button3
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImage = global::RakiyaTime.Properties.Resources.wood_g51e534587_1920;
             this.button3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button3.Location = new System.Drawing.Point(0, 350);
+            this.button3.Location = new System.Drawing.Point(0, 449);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(784, 97);
+            this.button3.Size = new System.Drawing.Size(805, 97);
             this.button3.TabIndex = 0;
             this.button3.Text = "Ракиено време ли е?";
             this.button3.UseVisualStyleBackColor = true;
@@ -83,6 +82,7 @@
             this.MainText.Size = new System.Drawing.Size(65, 28);
             this.MainText.TabIndex = 1;
             this.MainText.Text = "label2";
+            this.MainText.Visible = false;
             // 
             // affirmationLabel
             // 
@@ -96,7 +96,9 @@
             // 
             // MainForm
             // 
-            this.ClientSize = new System.Drawing.Size(784, 447);
+            this.BackgroundImage = global::RakiyaTime.Properties.Resources.rakiyaWallpaper;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(805, 546);
             this.Controls.Add(this.affirmationLabel);
             this.Controls.Add(this.MainText);
             this.Controls.Add(this.button3);

@@ -6,11 +6,12 @@ namespace RakiyaTime
     public partial class MainForm : Form
     {
         
-
+        
 
         public MainForm()
         {
             InitializeComponent();
+            
         }
 
         public void button3_Click(object sender, EventArgs e)
@@ -42,7 +43,6 @@ namespace RakiyaTime
                 }
             }
 
-            affirmationLabel.Visible = true;
             var citiesToDisplay = CitiesInfo.GetCitiesByUTC(utcNum);
 
             StringBuilder sb = new StringBuilder();
@@ -52,7 +52,11 @@ namespace RakiyaTime
                 sb.AppendLine($"{i + 1}. {citiesToDisplay[i]}");
             }
             
+            affirmationLabel.Visible = true;
             MainText.Text = sb.ToString();
+            MainText.Visible = true;
         }
+
+        
     }
 }

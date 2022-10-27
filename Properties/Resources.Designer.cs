@@ -59,5 +59,25 @@ namespace RakiyaTime.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rakiyaWallpaper {
+            get {
+                object obj = ResourceManager.GetObject("rakiyaWallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wood_g51e534587_1920 {
+            get {
+                object obj = ResourceManager.GetObject("wood-g51e534587_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
