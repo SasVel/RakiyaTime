@@ -52,6 +52,8 @@ namespace RakiyaTime
                 sb.AppendLine($"{i + 1}. {citiesToDisplay[i]}");
             }
             
+            displayPanel.Visible = true;
+            displayPanel.SendToBack();
             affirmationLabel.Visible = true;
             MainText.Text = sb.ToString();
             MainText.Visible = true;

@@ -34,6 +34,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.MainText = new System.Windows.Forms.Label();
             this.affirmationLabel = new System.Windows.Forms.Label();
+            this.displayPanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button1
@@ -62,6 +63,7 @@
             // button3
             // 
             this.button3.BackgroundImage = global::RakiyaTime.Properties.Resources.wood_g51e534587_1920;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
@@ -76,8 +78,9 @@
             // MainText
             // 
             this.MainText.AutoSize = true;
+            this.MainText.BackColor = System.Drawing.Color.SaddleBrown;
             this.MainText.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MainText.Location = new System.Drawing.Point(306, 135);
+            this.MainText.Location = new System.Drawing.Point(228, 140);
             this.MainText.Name = "MainText";
             this.MainText.Size = new System.Drawing.Size(65, 28);
             this.MainText.TabIndex = 1;
@@ -87,12 +90,24 @@
             // affirmationLabel
             // 
             this.affirmationLabel.AutoSize = true;
-            this.affirmationLabel.Location = new System.Drawing.Point(306, 95);
+            this.affirmationLabel.BackColor = System.Drawing.Color.SaddleBrown;
+            this.affirmationLabel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.affirmationLabel.Location = new System.Drawing.Point(228, 88);
             this.affirmationLabel.Name = "affirmationLabel";
-            this.affirmationLabel.Size = new System.Drawing.Size(125, 20);
+            this.affirmationLabel.Size = new System.Drawing.Size(208, 35);
             this.affirmationLabel.TabIndex = 2;
             this.affirmationLabel.Text = "Разбира се, че е!";
             this.affirmationLabel.Visible = false;
+            // 
+            // displayPanel
+            // 
+            this.displayPanel.BackColor = System.Drawing.Color.SaddleBrown;
+            this.displayPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.displayPanel.Location = new System.Drawing.Point(205, 71);
+            this.displayPanel.Name = "displayPanel";
+            this.displayPanel.Size = new System.Drawing.Size(341, 223);
+            this.displayPanel.TabIndex = 3;
+            this.displayPanel.Visible = false;
             // 
             // MainForm
             // 
@@ -101,6 +116,7 @@
             this.ClientSize = new System.Drawing.Size(805, 546);
             this.Controls.Add(this.affirmationLabel);
             this.Controls.Add(this.MainText);
+            this.Controls.Add(this.displayPanel);
             this.Controls.Add(this.button3);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -118,5 +134,6 @@
         private Button button3;
         private Label MainText;
         private Label affirmationLabel;
+        private Panel displayPanel;
     }
 }
