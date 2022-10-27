@@ -79,10 +79,11 @@
             // 
             this.MainText.AutoSize = true;
             this.MainText.BackColor = System.Drawing.Color.SaddleBrown;
-            this.MainText.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MainText.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MainText.ForeColor = System.Drawing.Color.SandyBrown;
             this.MainText.Location = new System.Drawing.Point(228, 140);
             this.MainText.Name = "MainText";
-            this.MainText.Size = new System.Drawing.Size(65, 28);
+            this.MainText.Size = new System.Drawing.Size(72, 29);
             this.MainText.TabIndex = 1;
             this.MainText.Text = "label2";
             this.MainText.Visible = false;
@@ -91,10 +92,11 @@
             // 
             this.affirmationLabel.AutoSize = true;
             this.affirmationLabel.BackColor = System.Drawing.Color.SaddleBrown;
-            this.affirmationLabel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.affirmationLabel.Font = new System.Drawing.Font("Times New Roman", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.affirmationLabel.ForeColor = System.Drawing.Color.SandyBrown;
             this.affirmationLabel.Location = new System.Drawing.Point(228, 88);
             this.affirmationLabel.Name = "affirmationLabel";
-            this.affirmationLabel.Size = new System.Drawing.Size(208, 35);
+            this.affirmationLabel.Size = new System.Drawing.Size(224, 32);
             this.affirmationLabel.TabIndex = 2;
             this.affirmationLabel.Text = "Разбира се, че е!";
             this.affirmationLabel.Visible = false;
@@ -102,10 +104,10 @@
             // displayPanel
             // 
             this.displayPanel.BackColor = System.Drawing.Color.SaddleBrown;
-            this.displayPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.displayPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.displayPanel.Location = new System.Drawing.Point(205, 71);
             this.displayPanel.Name = "displayPanel";
-            this.displayPanel.Size = new System.Drawing.Size(341, 223);
+            this.displayPanel.Size = new System.Drawing.Size(397, 239);
             this.displayPanel.TabIndex = 3;
             this.displayPanel.Visible = false;
             // 
