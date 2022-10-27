@@ -11,7 +11,7 @@ namespace RakiyaTime
         public MainForm()
         {
             InitializeComponent();
-            
+            this.Icon = Properties.Resources.rakiya_bottle;
         }
 
         public void button3_Click(object sender, EventArgs e)
